@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 753px;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(0, 0, 0));
+}
+#line {
+    width: 1350px;
+    left: 70px;
+    border-top: 2px solid magenta;
+    position: relative;
+    top: 50px;
+}
+#type{
+    color: rgb(0, 221, 255);
+    font-size: larger;
+    margin-left: 70px;
+    position: relative;
+    top: 10px;
+}
+#type1{
+    color:rgb(0, 208, 231);;
+    font-size: larger;
+    left: 325px;
+    position: relative;
+    top: 10px;
+}
+#typ{
+    color:rgb(0, 231, 219);;
+    font-size: larger;
+    font-weight: 1000;
+    left: 230px;
+    position: relative;
+    top: 145px;
+}
+#line5 {
+    width: 115px;
+    left: 310px;
+    border-top: 2px solid red;
+    position: relative;
+    top: 50px;
+}
+
+form {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    box-sizing: border-box;
+     border: 2px solid rebeccapurple;
+
+    }
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+ }
+ input[type="text1"],[type="text2"],[type="text"],[type="password"],[type="password1"]{
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 730px;
+    height: 35px;
+    border-bottom: 2px solid magenta;
+    background: none;
+    padding: 5px;
+    color: red;
+    margin-left: -30px;
+ }
+    
+input[type="text1"]{
+        top: 200px;
+        left:39px;
+}
+
+    
+
+
+#p0{
+    position: absolute;
+    top: 25px;
+    Right: 55px;
+    color:#fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+#p0:hover{
+    color: #72c9ff;
+}
+
+
+#line0 {
+    width: 1350px;
+    left: 70px;
+    border-top: 2px solid magenta;
+    position: relative;
+    top: 600px;
+}
+#footer {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin-top: -4px;
+    margin-right: 20px;
+}
+
+#icon a {
+    font-size: 40px;
+    text-decoration: none;
+    margin: 20px;
+}
